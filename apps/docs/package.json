@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "docs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,14 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+    "@saas/ui": "workspace:*",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@saas/eslint-config": "workspace:*",
+    "@saas/typescript-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
